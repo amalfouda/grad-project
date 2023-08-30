@@ -1,0 +1,50 @@
+body
+{
+    background-color:rgb(137, 4, 4);
+}
+.menu h1
+{
+    padding-left: 680px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color:rgb(10, 32, 108) ;
+}
+.image_slide
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_slide img
+{
+    width: 600px;
+    height: 600px;
+    
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.next,
+.Prev { /* Combine common styles for both buttons */
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+    color: aliceblue;
+    line-height: 40px;
+    background-color: rgb(10, 32, 108);
+    transition: all 0.2s;
+}
+.next
+{
+    margin-left: 20px;
+}
+
+.Prev {
+    margin-right: 10px; /* Add specific style for the prev button */
+}
